@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <Button
+            android:id="@+id/btnRobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Robi"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#f8f8fa"
+            android:textColor="#0a0909"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/robi_logo"
+            style="@android:style/Animation.InputMethod"
+            />
+
+        <Button
+            android:id="@+id/btnBanglalink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banglalink"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#f8f8fa"
+            android:textColor="#0a0909"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/bl"
+            style="@android:style/Animation.InputMethod"
+
+            />
+
+        <Button
+            android:id="@+id/btnGrameen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grameen Phone"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#f8f8fa"
+            android:textColor="#0a0909"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/gp_"
+            style="@android:style/Animation.InputMethod"
+            />
+
+        <Button
+            android:id="@+id/btnTeletalk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teletalk"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:background="#f8f8fa"
+            android:textColor="#0a0909"
+            android:textSize="20sp"
+            android:padding="20dp"
+            style="@android:style/Animation.InputMethod"
+            />
+
+        <Button
+            android:id="@+id/btnAirtel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Airtel"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:background="#f8f8fa"
+            android:textColor="#0a0909"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/airtel"
+            style="@android:style/Animation.InputMethod"
+            android:padding="20dp"
+            />
+
+
+    </LinearLayout>

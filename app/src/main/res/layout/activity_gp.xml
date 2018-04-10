@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btnBalanceCheck"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance Check"
+        android:onClick="onClick"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:background="#c71d2e"
+        android:textColor="#FFF"
+        style="@android:style/Animation.InputMethod"
+        />
+    <Button
+        android:id="@+id/btnSimNumberCheck"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Own Number Check"
+        android:onClick="onClick"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:background="#c71d2e"
+        android:textColor="#FFF"
+        style="@android:style/Animation.InputMethod"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnPackageCheck"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package Check"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#c71d2e"
+            android:textColor="#FFF"
+            style="@android:style/Animation.InputMethod"
+            />
+        <Button
+            android:id="@+id/btnMinuteCheck"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minute Check"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#c71d2e"
+            android:textColor="#FFF"
+            style="@android:style/Animation.InputMethod"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnSmsCheck"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS Check"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#c71d2e"
+            android:textColor="#FFF"
+            style="@android:style/Animation.InputMethod"
+            />
+        <Button
+            android:id="@+id/btnDataCheck"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data (MB) Check"
+            android:onClick="onClick"
+            android:layout_margin="5dp"
+            android:padding="20dp"
+            android:background="#c71d2e"
+            android:textColor="#FFF"
+            style="@android:style/Animation.InputMethod"
+            />
+    </LinearLayout>
+</LinearLayout>
